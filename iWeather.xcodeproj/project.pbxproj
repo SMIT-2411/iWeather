@@ -14,6 +14,7 @@
 		3A0693CF2A4DC3DE00BFA094 /* iWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0693CE2A4DC3DE00BFA094 /* iWeatherTests.swift */; };
 		3A0693D92A4DC3DE00BFA094 /* iWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0693D82A4DC3DE00BFA094 /* iWeatherUITests.swift */; };
 		3A0693DB2A4DC3DE00BFA094 /* iWeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0693DA2A4DC3DE00BFA094 /* iWeatherUITestsLaunchTests.swift */; };
+		3A0693E92A4DC58A00BFA094 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0693E82A4DC58A00BFA094 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3A0693D42A4DC3DE00BFA094 /* iWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0693D82A4DC3DE00BFA094 /* iWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWeatherUITests.swift; sourceTree = "<group>"; };
 		3A0693DA2A4DC3DE00BFA094 /* iWeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A0693E82A4DC58A00BFA094 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				3A0693BD2A4DC3DC00BFA094 /* iWeatherApp.swift */,
 				3A0693BF2A4DC3DC00BFA094 /* ContentView.swift */,
 				3A0693C12A4DC3DE00BFA094 /* Assets.xcassets */,
+				3A0693E72A4DC57400BFA094 /* Managers */,
 				3A0693C32A4DC3DE00BFA094 /* Preview Content */,
 			);
 			path = iWeather;
@@ -125,6 +128,14 @@
 				3A0693DA2A4DC3DE00BFA094 /* iWeatherUITestsLaunchTests.swift */,
 			);
 			path = iWeatherUITests;
+			sourceTree = "<group>";
+		};
+		3A0693E72A4DC57400BFA094 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3A0693E82A4DC58A00BFA094 /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				3A0693C02A4DC3DC00BFA094 /* ContentView.swift in Sources */,
 				3A0693BE2A4DC3DC00BFA094 /* iWeatherApp.swift in Sources */,
+				3A0693E92A4DC58A00BFA094 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
